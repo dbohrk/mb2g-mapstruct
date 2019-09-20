@@ -1,7 +1,7 @@
-package guru.springframework.mappers;
+package corp.kahuna.mappers;
 
-import guru.springframework.domain.User;
-import guru.springframework.model.UserCommand;
+import corp.kahuna.domain.User;
+import corp.kahuna.model.UserCommand;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

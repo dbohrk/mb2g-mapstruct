@@ -1,18 +1,17 @@
-package guru.springframework.domain;
+package corp.kahuna.model;
 
 /**
  * Created by jt on 2018-12-09.
  */
-public class User {
-
+public class UserCommand {
     private String firstName;
     private String lastName;
     private String email;
 
-    public User() {
+    public UserCommand() {
     }
 
-    public User(String firstName, String lastName, String email) {
+    public UserCommand(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
